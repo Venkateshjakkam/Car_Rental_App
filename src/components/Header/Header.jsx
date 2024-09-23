@@ -59,8 +59,6 @@ const Header = () => {
   const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
 
 
-
-
   const logOut = () => {
     signOut(auth);
     setUserDetails(null)

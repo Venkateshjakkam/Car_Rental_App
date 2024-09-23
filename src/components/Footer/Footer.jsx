@@ -48,10 +48,9 @@ const Footer = () => {
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+            Waiting for a taxi or bus for transportation, whether from the airport or your hotel, 
+            can lead to time wasted during holiday or business travel. Renting a car allows you to
+            go directly to your destination
             </p>
           </Col>
 

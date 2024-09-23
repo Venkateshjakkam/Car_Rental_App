@@ -40,10 +40,10 @@ const Testimonial = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+       They are haveing android and IOS apps. Straightforward app to use.
+        I always find rent a car the cheapest option and have 
+        never had a bad experience using them. I always end up
+        returning to them after doing my research before renting a car.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -58,10 +58,10 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        They are haveing android and IOS apps. Straightforward app to use.
+        I always find rent a car the cheapest option and have 
+        never had a bad experience using them. I always end up
+        returning to them after doing my research before renting a car.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -76,10 +76,10 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        They are haveing android and IOS apps. Straightforward app to use.
+        I always find rent a car the cheapest option and have 
+        never had a bad experience using them. I always end up
+        returning to them after doing my research before renting a car.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -94,10 +94,10 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        They are haveing android and IOS apps. Straightforward app to use.
+        I always find rent a car the cheapest option and have 
+        never had a bad experience using them. I always end up
+        returning to them after doing my research before renting a car.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">

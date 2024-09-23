@@ -28,7 +28,6 @@ function Login() {
   return (
     <form onSubmit={handleSubmit}>
       <h3>Login</h3>
-
       <div className="mb-3">
         <label>Email address</label>
         <input
