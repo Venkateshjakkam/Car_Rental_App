@@ -62,7 +62,7 @@ const Header = () => {
     });
 
     return () => unsubscribe(); // Cleanup on unmount
-  }, []);
+  }, [userDetails]);
 
   const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
 
@@ -98,28 +98,31 @@ const Header = () => {
             ) : (
               <h3 style={{ color: "white" }}>Welcome </h3>
             )}
+
+
+
+
           {/* <Col lg="6" md="6" sm="6">
-  <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-    {!userDetails ? (
+     <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
+     {!userDetails ? (
       <Link to="/login" className="btn login-btn d-flex align-items-center gap-1">
         <i className="ri-login-circle-line"></i> Login
       </Link>
-    ) : (
-      <Link
+      ) : (
+        <Link
         to="/home"
         className="btn logout-btn d-flex align-items-center gap-1"
         onClick={logOut}
       >
-        <i className="ri-login-circle-line"></i> LogOut
+           <i className="ri-login-circle-line"></i> LogOut
       </Link>
     )}
-    <Link to="/register" className="btn register-btn d-flex align-items-center gap-1">
+      <Link to="/register" className="btn register-btn d-flex align-items-center gap-1">
       <i className="ri-user-line"></i> Register
     </Link>
   </div>
 </Col> */}
 
-  
 
              
             <Col lg="6" md="6" sm="6">
