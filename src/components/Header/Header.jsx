@@ -36,40 +36,43 @@ const Header = () => {
 
   // Function to fetch user data
   const fetchUserData = async (user) => {
-    if (user) {
+    console.log("Fetching user data for user: ", user.uid);
       try {
         const docRef = doc(db, "Users", user.uid);
         const docSnap = await getDoc(docRef);
         if (docSnap.exists()) {
           setUserDetails(docSnap.data());
+          console.log("User details fetched: ", docSnap.data());
         } else {
           console.log("No user data found!");
         }
       } catch (error) {
         console.error("Error fetching user data:", error);
       }
-    }
+    
   };
 
   useEffect(() => {
-    // Check for authentication state change
+  
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user) {
-        fetchUserData(user); // Fetch user data when logged in
+        console.log("Fetch user Data", user)
+        fetchUserData(user); 
       } else {
-        setUserDetails(null); // Set to null if no user is logged in
+        console.log("Fetch user Data no user has been noted yet")
+        setUserDetails(null); 
       }
     });
 
-    return () => unsubscribe(); // Cleanup on unmount
-  }, [userDetails]);
+    return () => unsubscribe(); 
+  }, []);
 
   const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
 
   const logOut = () => {
     signOut(auth)
       .then(() => {
-        setUserDetails(null); // Clear user details after logging out
+        setUserDetails(null); 
       })
       .catch((error) => {
         console.error("Error logging out:", error);
