@@ -207,3 +207,72 @@
 
 /************************************** new add Styles****************************************** */
 
+/* Container for the buttons aligned to the right */
+.header__top__right {
+  display: flex;
+  justify-content: flex-end; /* Ensures the buttons are pushed to the right */
+  align-items: center; /* Vertically centers the buttons */
+  gap: 15px; /* Adjusts space between buttons */
+  width: 100%; /* Ensures the buttons take full available space */
+}
+
+/* Button Styling */
+.btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; /* Ensure the icon and text are aligned horizontally */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white; /* Common text color for all buttons */
+}
+
+.login-btn {
+  background-color: #007bff; /* Blue for login */
+}
+
+.logout-btn {
+  background-color: #dc3545; /* Red for logout */
+}
+
+.register-btn {
+  background-color: #28a745; /* Green for register */
+}
+
+/* Hover effects */
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+.register-btn:hover {
+  background-color: #218838;
+}
+
+/* Adjust spacing and centering for buttons */
+.d-flex {
+  align-items: center; /* Vertically aligns items */
+}
+
+.gap-3 {
+  gap: 15px; /* Adds a gap between flex children */
+}
+
+/* For small screen responsiveness */
+@media (max-width: 768px) {
+  .header__top__right {
+    flex-direction: row;
+    justify-content: flex-end; /* Ensure buttons are still aligned right */
+    gap: 10px;
+  }
+
+  .btn {
+    padding: 7px 12px; /* Slightly reduce padding for smaller screens */
+  }
+}

@@ -26,7 +26,7 @@ const Routers = () => {
     <Routes>
         <Route
                 path="/"
-                element={user ? <Navigate to="/" /> : <Login />}
+                element={user ? <Navigate to="/home" /> : <Login />}
               />
       {/* <Route path="/" element={<Navigate to="/home" />} /> */}
       <Route path="/home" element={<Home />} />
