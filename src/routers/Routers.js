@@ -19,7 +19,7 @@ const Routers = () => {
     auth.onAuthStateChanged((user) => {
       setUser(user);
     });
-  });
+  },[]);
 
 
   return (
