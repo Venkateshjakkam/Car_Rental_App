@@ -1,4 +1,4 @@
-import React from "react";
+import React,{ useState ,useEffect} from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
@@ -14,20 +14,20 @@ import { auth } from "../firebase";
 
 const Routers = () => {
 
-  // const [user, setUser] = useState();
-  // useEffect(() => {
-  //   auth.onAuthStateChanged((user) => {
-  //     setUser(user);
-  //   });
-  // });
+  const [user, setUser] = useState();
+  useEffect(() => {
+    auth.onAuthStateChanged((user) => {
+      setUser(user);
+    });
+  });
 
 
   return (
     <Routes>
-        {/* <Route
+        <Route
                 path="/"
-                element={user ? <Navigate to="/home" /> : <Login />}
-              /> */}
+                element={user ? <Navigate to="/" /> : <Login />}
+              />
       {/* <Route path="/" element={<Navigate to="/home" />} /> */}
       <Route path="/home" element={<Home />} />
       <Route path="/about" element={<About />} />
