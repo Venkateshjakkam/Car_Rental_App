@@ -36,6 +36,7 @@ const Header = () => {
 
   // Function to fetch user data
   const fetchUserData = async (user) => {
+    
     console.log("Fetching user data for user: ", user.uid);
       try {
         const docRef = doc(db, "Users", user.uid);

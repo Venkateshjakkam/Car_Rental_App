@@ -7,19 +7,19 @@ import "../styles/contact.css";
 
 const socialLinks = [
   {
-    url: "#",
+    url: "/",
     icon: "ri-facebook-line",
   },
   {
-    url: "#",
+    url: "/",
     icon: "ri-instagram-line",
   },
   {
-    url: "#",
+    url: "/",
     icon: "ri-linkedin-line",
   },
   {
-    url: "#",
+    url: "/",
     icon: "ri-twitter-line",
   },
 ];
