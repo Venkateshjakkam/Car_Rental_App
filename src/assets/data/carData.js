@@ -48,13 +48,13 @@ const carData = [
     carName: "BMW X3",
     imgUrl: img03,
     model: "Model-2022",
-    price: 65,
+    price: 650,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Mercedes is known for its long-lasting cars, because they are built with such elegant craftsmanship. With premium parts, knowledgeable workers, and attention to detail, a Benz may be an investment, but it's a durable one that stands the test of time.",
   },
 
   {
@@ -64,13 +64,13 @@ const carData = [
     carName: "Nissan Mercielago",
     imgUrl: img04,
     model: "Model-2022",
-    price: 70,
+    price: 700,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Mercedes is known for its long-lasting cars, because they are built with such elegant craftsmanship. With premium parts, knowledgeable workers, and attention to detail, a Benz may be an investment, but it's a durable one that stands the test of time.",
   },
 
   {
@@ -80,13 +80,13 @@ const carData = [
     carName: "Ferrari Camry",
     imgUrl: img05,
     model: "Model-2022",
-    price: 45,
+    price: 450,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Mercedes is known for its long-lasting cars, because they are built with such elegant craftsmanship. With premium parts, knowledgeable workers, and attention to detail, a Benz may be an investment, but it's a durable one that stands the test of time.",
   },
 
   {
@@ -96,13 +96,13 @@ const carData = [
     carName: "Mercedes Benz XC90",
     imgUrl: img06,
     model: "Model-2022",
-    price: 85,
+    price: 850,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Mercedes is known for its long-lasting cars, because they are built with such elegant craftsmanship. With premium parts, knowledgeable workers, and attention to detail, a Benz may be an investment, but it's a durable one that stands the test of time.",
   },
 
   {
@@ -112,13 +112,13 @@ const carData = [
     carName: "Audi Fiesta",
     imgUrl: img07,
     model: "Model 3",
-    price: 50,
+    price: 500,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Mercedes is known for its long-lasting cars, because they are built with such elegant craftsmanship. With premium parts, knowledgeable workers, and attention to detail, a Benz may be an investment, but it's a durable one that stands the test of time.",
   },
 
   {
@@ -128,13 +128,13 @@ const carData = [
     carName: "Rolls Royce Colorado",
     imgUrl: img08,
     model: "Model 3",
-    price: 50,
+    price: 500,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Mercedes is known for its long-lasting cars, because they are built with such elegant craftsmanship. With premium parts, knowledgeable workers, and attention to detail, a Benz may be an investment, but it's a durable one that stands the test of time.",
   },
 ];
 

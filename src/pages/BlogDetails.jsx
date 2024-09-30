@@ -57,9 +57,9 @@ const BlogDetails = () => {
                     <h6 className=" fw-bold">David Visa</h6>
                     <p className="section__description mb-0">14 Sep, 2024</p>
                     <p className="section__description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos nobis totam eius laborum molestias itaque minima
-                      distinctio, quae velit tempore!
+                    Mercedes comes with excellent construction and reliability consistently rank them among the sought-after used luxury cars.
+                    Moreover, owning a Mercedes comes with the perk of holding its value over time. When you eventually decide to sell,
+                    you can look forward to a solid return on your investment.
                     </p>
 
                     <span className="replay d-flex align-items-center gap-1">
